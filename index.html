@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="container ">
+            <div class="header__content-wrapper">
+                <div class="header__content">
+
+
+                    <div class="header__logo">
+                        <img src="./img/header/header__logo.svg">
+                        <div class="header__logo-text">Ink. House</div>
+                    </div>
+                    <div class="header__line"></div>
+
+                    <!--Добавляем изменения бургера по нажатию-->
+                    <div class="header__burger-btn" id="header__burger-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <!-- Добавляем по нажатию на бургер класс header__nav-open -->
+                    <nav class="header__nav " id="header__nav">
+
+                        <ul class="header__menu">
+                            <li><a class="header__menu-link">Репродукции</a></li>
+                            <li><a class="header__menu-link">Новинки</a></li>
+                            <li><a class="header__menu-link">О нас </a></li>
+                            <li><a><img class="header__menu-disabled" src="./img/header/shop-icon.svg"></a></li>
+                        </ul>
+
+                    </nav>
+
+
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
+
+    </header>
+
+
+    <section class="product">
+        <div class="container product__content">
+
+            <div class="product__image">
+                <img src="./img/product/product__image.png">
+            </div>
+
+            <div class="product__info">
+                <div class="product__info-title">Реплики картин от <span>Ink. House</span></div>
+                <div class="product__info-text">Высокое качество отрисовки на плотной бумаге или льняном холсте. Редкие
+                    произведения, доступные цены.</div>
+
+                <button class="product__info-button">Продукция</button>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="reproduction">
+
+        <div class="container reproduction__content">
+            <div class="reproduction__header-wrapper">
+                <div class="reproduction__header">
+                    <div class="reproduction__header-title">Репродукции</div>
+
+                    <div class="reproduction__country-wrapper">
+                        <div class="reproduction__header-country ">
+                            <div class="reproduction__country reproduction__country-onclick" id="country__France">
+                                Франция</div>
+                            <div class="reproduction__country " id="country__Germany">
+                                Германия</div>
+                            <div class="reproduction__country " id="country__England">
+                                Англия</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BLOCK FRANCE -->
+
+            <div class="reproduction__france">
+                <div class="reproduction__block-wrapper">
+                    <div class="reproduction__block">
+
+
+                        <div class="reproduction__element reproduction__grid-item1">
+                            <div class="reproduction__element-image">
+                                <img src="./img/reproduction/France/1.jpg">
+                            </div>
+                            <div class="reproduction__element-author">Марсель Руссо</div>
+                            <div class="reproduction__element-name">Охота Амура</div>
+                            <div class="reproduction__element-material">Холст, масло (50х80) </div>
+                            <div class="reproduction__element-price">14 500 руб</div>
+                            <div class="reproduction__element-buy">
+                                <button>В корзину</button>
+                            </div>
+                        </div>
+
+
+
+                        <div class="reproduction__element reproduction__grid-item2">
+                            <div class="reproduction__element-image">
+                                <img src="./img/reproduction/France/2.jpg">
+                            </div>
+                            <div class="reproduction__element-author">Анри Селин</div>
+                            <div class="reproduction__element-name">Дама с собачкой</div>
+                            <div class="reproduction__element-material">Акрил, бумага (50х80) </div>
+                            <div class="reproduction__element-price">16 500 руб</div>
+                            <div class="reproduction__element-buy">
+                                <button>В корзину</button>
+                            </div>
+                        </div>
+
+
+
+                        <div class="reproduction__element reproduction__grid-item3">
+                            <div class="reproduction__element-image">
+                                <img src="./img/reproduction/France/3.jpg">
+                            </div>
+                            <div class="reproduction__element-author">Франсуа Дюпон</div>
+                            <div class="reproduction__element-name">Процедура</div>
+                            <div class="reproduction__element-material">Цветная литография (40х60) </div>
+                            <div class="reproduction__element-price">20 000 руб</div>
+                            <div class="reproduction__element-buy">
+                                <button>В корзину</button>
+                            </div>
+                        </div>
+
+
+
+                        <div class="reproduction__element reproduction__grid-item4">
+                            <div class="reproduction__element-image">
+                                <img src="./img/reproduction/France/4.jpg">
+                            </div>
+                            <div class="reproduction__element-author">Луи Детуш</div>
+                            <div class="reproduction__element-name">Роза</div>
+                            <div class="reproduction__element-material">Бумага, акрил (50х80) </div>
+                            <div class="reproduction__element-price">12 000 руб</div>
+                            <div class="reproduction__element-buy">
+                                <button>В корзину</button>
+                            </div>
+                        </div>
+
+
+
+                        <div class="reproduction__element reproduction__grid-item5">
+                            <div class="reproduction__element-image">
+                                <img src="./img/reproduction/France/5.jpg">
+                            </div>
+                            <div class="reproduction__element-author">Франсуа Дюпон</div>
+                            <div class="reproduction__element-name">Птичья трапеза</div>
+                            <div class="reproduction__element-material">Цветная литография (40х60) </div>
+                            <div class="reproduction__element-price">22 500 руб</div>
+                            <div class="reproduction__element-buy">
+                                <button>В корзину</button>
+                            </div>
+                        </div>
+
+
+
+                        <div class="reproduction__element reproduction__grid-item6">
+                            <div class="reproduction__element-image">
+                                <img src="./img/reproduction/France/6.jpg">
+                            </div>
+                            <div class="reproduction__element-author">Пьер Моранж</div>
+                            <div class="reproduction__element-name">Пейзаж с рыбой</div>
+                            <div class="reproduction__element-material">Цветная литография (40х60) </div>
+                            <div class="reproduction__element-price">20 000 руб</div>
+                            <div class="reproduction__element-buy">
+                                <button>В корзину</button>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- BLOCK GERMANY -->
+
+            <div class="reproduction__Germany">
+                <div class="reproduction__block-wrapper">
+                    <div class="reproduction__block">
+
+
+                        <div class="reproduction__element reproduction__grid-item1">
+                            <div class="reproduction__element-image">
+                                <img src="./img/reproduction/Germany/1.jpg">
+                            </div>
+                            <div class="reproduction__element-author">Курт Вернер</div>
+                            <div class="reproduction__element-name">Над городом</div>
+                            <div class="reproduction__element-material">Цветная литография (40х60) </div>
+                            <div class="reproduction__element-price">16 000 руб</div>
+                            <div class="reproduction__element-buy">
+                                <button>В корзину</button>
+                            </div>
+                        </div>
+
+
+
+                        <div class="reproduction__element reproduction__grid-item2">
+                            <div class="reproduction__element-image">
+                                <img src="./img/reproduction/Germany/2.jpg">
+                            </div>
+                            <div class="reproduction__element-author">Макс Рихтер</div>
+                            <div class="reproduction__element-name">Птенцы</div>
+                            <div class="reproduction__element-material">Холст, масло (50х80)</div>
+                            <div class="reproduction__element-price">14 500 руб </div>
+                            <div class="reproduction__element-buy">
+                                <button>В корзину</button>
+                            </div>
+                        </div>
+
+
+
+                        <div class="reproduction__element reproduction__grid-item3">
+                            <div class="reproduction__element-image">
+                                <img src="./img/reproduction/Germany/3.jpg">
+                            </div>
+                            <div class="reproduction__element-author">Мартин Майер</div>
+                            <div class="reproduction__element-name">Среди листьев</div>
+                            <div class="reproduction__element-material">Цветная литография (40х60) </div>
+                            <div class="reproduction__element-price">20 000 руб</div>
+                            <div class="reproduction__element-buy">
+                                <button>В корзину</button>
+                            </div>
+                        </div>
+
+
+
+                        <div class="reproduction__element reproduction__grid-item4">
+                            <div class="reproduction__element-image">
+                                <img src="./img/reproduction/Germany/4.jpg">
+                            </div>
+                            <div class="reproduction__element-author">Герман Беккер</div>
+                            <div class="reproduction__element-name">Яркая птица</div>
+                            <div class="reproduction__element-material">Цветная литография (40х60) </div>
+                            <div class="reproduction__element-price">13 000 руб</div>
+                            <div class="reproduction__element-buy">
+                                <button>В корзину</button>
+                            </div>
+                        </div>
+
+
+
+                        <div class="reproduction__element reproduction__grid-item5">
+                            <div class="reproduction__element-image">
+                                <img src="./img/reproduction/Germany/5.jpg">
+                            </div>
+                            <div class="reproduction__element-author">Вульф Бауэр</div>
+                            <div class="reproduction__element-name">Птичья трапеза</div>
+                            <div class="reproduction__element-material">Бумага, акрил (50х80) </div>
+                            <div class="reproduction__element-price">20 000 руб</div>
+                            <div class="reproduction__element-buy">
+                                <button>В корзину</button>
+                            </div>
+                        </div>
+
+
+
+                        <div class="reproduction__element reproduction__grid-item6">
+                            <div class="reproduction__element-image">
+                                <img src="./img/reproduction/Germany/6.jpg">
+                            </div>
+                            <div class="reproduction__element-author">Вальтер Хартманн</div>
+                            <div class="reproduction__element-name">Большие воды</div>
+                            <div class="reproduction__element-material">Бумага, акрил (50х80) </div>
+                            <div class="reproduction__element-price">23 000 руб</div>
+                            <div class="reproduction__element-buy">
+                                <button>В корзину</button>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- BLOCK ENGLAND -->
+            <div class="reproduction__England">
+                <div class="reproduction__block-wrapper">
+                    <div class="reproduction__block">
+
+
+                        <div class="reproduction__element reproduction__grid-item1">
+                            <div class="reproduction__element-image">
+                                <img src="./img/reproduction/England/1.jpg">
+                            </div>
+                            <div class="reproduction__element-author">Пол Смит</div>
+                            <div class="reproduction__element-name">Дикий зверь</div>
+                            <div class="reproduction__element-material">Акварель, бумага (50х80) </div>
+                            <div class="reproduction__element-price">19 500 руб</div>
+                            <div class="reproduction__element-buy">
+                                <button>В корзину</button>
+                            </div>
+                        </div>
+
+
+
+                        <div class="reproduction__element reproduction__grid-item2">
+                            <div class="reproduction__element-image">
+                                <img src="./img/reproduction/England/2.jpg">
+                            </div>
+                            <div class="reproduction__element-author">Джон Уайт</div>
+                            <div class="reproduction__element-name">Скалистый берег</div>
+                            <div class="reproduction__element-material">Цветная литография (40х60) </div>
+                            <div class="reproduction__element-price">17 500 руб </div>
+                            <div class="reproduction__element-buy">
+                                <button>В корзину</button>
+                            </div>
+                        </div>
+
+
+
+                        <div class="reproduction__element reproduction__grid-item3">
+                            <div class="reproduction__element-image">
+                                <img src="./img/reproduction/England/3.jpg">
+                            </div>
+                            <div class="reproduction__element-author">Джим Уотсон</div>
+                            <div class="reproduction__element-name">Река и горы</div>
+                            <div class="reproduction__element-material">Акварель, бумага (50х80) </div>
+                            <div class="reproduction__element-price">20 500 руб</div>
+                            <div class="reproduction__element-buy">
+                                <button>В корзину</button>
+                            </div>
+                        </div>
+
+
+
+                        <div class="reproduction__element reproduction__grid-item4">
+                            <div class="reproduction__element-image">
+                                <img src="./img/reproduction/England/4.jpg">
+                            </div>
+                            <div class="reproduction__element-author">Юджин Зиллион</div>
+                            <div class="reproduction__element-name">Белый попугай</div>
+                            <div class="reproduction__element-material">Цветная литография (40х60) </div>
+                            <div class="reproduction__element-price">15 500 руб</div>
+                            <div class="reproduction__element-buy">
+                                <button>В корзину</button>
+                            </div>
+                        </div>
+
+
+
+                        <div class="reproduction__element reproduction__grid-item5">
+                            <div class="reproduction__element-image">
+                                <img src="./img/reproduction/England/5.jpg">
+                            </div>
+                            <div class="reproduction__element-author">Эрик Гиллман</div>
+                            <div class="reproduction__element-name">Ночная рыба</div>
+                            <div class="reproduction__element-material">Бумага, акрил (50х80) </div>
+                            <div class="reproduction__element-price">12 500 руб</div>
+                            <div class="reproduction__element-buy">
+                                <button>В корзину</button>
+                            </div>
+                        </div>
+
+
+
+                        <div class="reproduction__element reproduction__grid-item6">
+                            <div class="reproduction__element-image">
+                                <img src="./img/reproduction/England/6.jpg">
+                            </div>
+                            <div class="reproduction__element-author">Альфред Барр</div>
+                            <div class="reproduction__element-name">Рыжий кот</div>
+                            <div class="reproduction__element-material">Цветная литография (40х60) </div>
+                            <div class="reproduction__element-price">21 000 руб</div>
+                            <div class="reproduction__element-buy">
+                                <button>В корзину</button>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="collection">
+        <div class="container collection__content">
+            <div class="collection__name">
+                <div class="collection__name-image">
+                    <img src="./img/collection/Star.png">
+                </div>
+                <div class="collection__name-title">Новая коллекция французских авторов</div>
+            </div>
+            <div class="collection__text">
+                <p>Сложно сказать, почему акционеры крупнейших компаний призывают нас к новым свершениям, которые, в
+                    свою очередь, должны быть заблокированы в рамках своих собственных рациональных ограничений.</p>
+                <p>Принимая во внимание показатели успешности, граница обучения кадров предопределяет высокую
+                    востребованность направлений прогрессивного развития.</p>
+            </div>
+            <div class="collection__button">
+                <button>Ознакомиться</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="team">
+        <div class="container team__content">
+            <div class="team__image">
+                <img src="./img/team/image.png">
+            </div>
+            <div class="team__info">
+                <div class="team__info-title">Наша команда</div>
+                <div class="team__info-text">Значимость этих проблем настолько очевидна, что базовый вектор развития
+                    позволяет оценить значение экспериментов, поражающих по своей масштабности и грандиозности. Мы
+                    вынуждены отталкиваться от того, что консультация с широким активом.</div>
+                <div class="team__icon">
+                    <img src="./img/team/icon1.svg">
+                    <img src="./img/team/icon2.svg">
+                    <img src="./img/team/icon3.svg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer__content">
+
+            <div class="footer__info">
+                <div class="footer__info-logo">
+                    <div class="footer__info-image">
+                        <img src="./img/footer/icon.svg">
+                    </div>
+                    <div class="footer__info-name">Ink. House</div>
+                </div>
+                <div class="footer__info-block">
+                    <div class="footer__info-number">+7 (999) 543-54-54</div>
+                    <div class="footer__info-workshop">Мастерская</div>
+                </div>
+            </div>
+
+            <div class="footer__wrapper">
+                <nav class="footer__nav">
+                    <div class="footer__nav-block">
+                        <div class="footer__nav-title">Репродукции</div>
+                        <div class="footer__nav-name">Франция</div>
+                        <div class="footer__nav-name">Германия</div>
+                        <div class="footer__nav-name">Англия</div>
+                    </div>
+
+                    <div class="footer__nav-block">
+                        <div class="footer__nav-title">Новинки</div>
+                        <div class="footer__nav-name">2021</div>
+                        <div class="footer__nav-name">2020</div>
+                    </div>
+
+                    <div class="footer__nav-block">
+                        <div class="footer__nav-title">О нас</div>
+                        <div class="footer__nav-name">Художники</div>
+                        <div class="footer__nav-name">Менеджеры</div>
+                    </div>
+
+                </nav>
+                <div class="header__line footer__line"></div>
+
+                <div class="footer__social-wrapper">
+                    <div class="footer__social">
+                        <img class="footer__social-icon" src="./img/footer/facebook.svg">
+                        <img class="footer__social-icon" src="./img/footer/inst.svg">
+                        <img class="footer__social-icon" src="./img/footer/youtube.svg">
+                    </div>
+                    <div class="footer__rights">
+                        <p>Ink. House ®</p>
+                        <p>All rights reserved</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
